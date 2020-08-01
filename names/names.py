@@ -13,7 +13,11 @@ f.close()
 duplicates = []  # Return the list of duplicates in this data structure
 
 # Replace the nested for loops below with your improvements
+
+# .intersection() will return a set of matching values
 dupes = set(names_1).intersection(names_2)
+
+# convert dupes to list
 duplicates = list(dupes)
 
 end_time = time.time()
